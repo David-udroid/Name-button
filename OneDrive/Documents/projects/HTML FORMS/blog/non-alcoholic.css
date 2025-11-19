@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(92, 80, 80);
+    
+}
+h1{
+    font-size: 60px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    color: orange;
+}
+
+header{
+    background-color: grey;
+}
+main{
+    background-color: yellw;
+    display: grid;
+    background-image: url(img/ante-samarzija-lsmu0rUhUOk-unsplash.jpg);
+    background-size: cover;
+
+
+}
+
+img{
+    align-items: right;
+    align-self: right;
+    justify-content: right;
+    justify-self: right;
+    justify-items: end;
+}
+
+h4{
+    font-size: 25px;
+
+}
+
+.list{
+    font-size: 36px;
+    color: yellow;
+
+}
+
+p{
+    font-size: 25px;
+    color: magenta;
+}
+
+nav{
+    font-size: 20px;
+}

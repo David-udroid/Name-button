@@ -1,0 +1,8 @@
+@media ( max-width: 70rem) {
+    /* 1115px / 16px =70rem */
+
+    html {
+        font-size:56.29%;
+        /* 9px (by choice) / 16px =56.29% */
+    }
+}

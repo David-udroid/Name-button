@@ -1,0 +1,276 @@
+.welcome-container1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.welcomewelcome {
+  width: 100%;
+  height: 1524px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(0deg, rgba(4, 6, 67, 1) 29%, rgba(26, 31, 92, 1) 67%);
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.welcome-frame1171277169 {
+  gap: 40px;
+  top: 210px;
+  left: 402px;
+  width: 637px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+ 
+.welcome-text1 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 96px;
+  font-style: italic;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 900;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.welcome-text2 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 96px;
+  font-style: italic;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.welcome-frame1171277168 {
+  gap: 13px;
+  top: 404.609375px;
+  left: 473.5px;
+  width: 493px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.welcome-text3 {
+  color: rgba(255, 255, 255, 1);
+  width: 301px;
+  height: auto;
+  font-size: 64px;
+  font-style: italic;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.welcome-text4 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 64px;
+  font-style: italic;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.welcome-ellipse2 {
+  top: 885px;
+  left: 43px;
+  width: 1355px;
+  height: 312px;
+  opacity: 0.40;
+  position: absolute;
+  border-style: solid;
+  border-width: 3px;
+}
+ 
+.welcome-ellipse1 {
+  top: 1010px;
+  left: 43px;
+  width: 1355px;
+  height: 312px;
+  position: absolute;
+  border-style: solid;
+  border-width: 2px;
+}
+ 
+.welcomeatm {
+  top: 675px;
+  left: 616px;
+  width: 208.33334350585938px;
+  height: 257px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.welcome-vector {
+  top: 0px;
+  left: 0px;
+  width: 208px;
+  height: 83px;
+  position: absolute;
+}
+ 
+.welcome-card {
+  top: 257px;
+  left: 29px;
+  width: 215px;
+  height: 150px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(51, 54, 150, 0.8700000047683716);
+}
+ 
+.welcome-rectangle5 {
+  top: 0px;
+  left: 33px;
+  width: 215px;
+  height: 30px;
+  position: absolute;
+}
+ 
+.welcome-rectangle6 {
+  top: -12.900390625px;
+  left: 70px;
+  width: 69px;
+  height: 10px;
+  position: absolute;
+}
+ 
+.welcome-text5 {
+  top: 1035px;
+  left: 441px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.welcome-poweredbyapplead {
+  gap: 10px;
+  top: 1447px;
+  left: 593px;
+  width: 254px;
+  height: 49px;
+  display: flex;
+  padding: 5px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.welcome-text6 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.welcome-frame1171277162 {
+  gap: 4px;
+  width: 136px;
+  display: flex;
+  padding: 0 5px;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.welcome-applead2 {
+  width: 27px;
+  height: 25px;
+}
+ 
+.welcome-text7 {
+  color: rgba(4, 6, 67, 1);
+  height: auto;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Plus Jakarta Sans;
+  font-weight: 500;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.welcome-applead3 {
+  top: 51px;
+  left: 67px;
+  width: 141px;
+  height: 130px;
+  position: absolute;
+}
+ 
+.welcome-link {
+  display: contents;
+}
+ 
+.welcome-container2 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.welcome-icon1 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.welcome-text8 {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
