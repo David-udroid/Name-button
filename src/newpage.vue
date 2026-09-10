@@ -2,10 +2,12 @@
   <div class="newpage">
     David Davis.
   </div>
-  <button class="back" 
-  @click="$emit('go-back')">
-    Back
-  </button>
+  <router-link to="./">
+    <button class="back" 
+    @click="$emit('go-back')">
+      Back
+    </button>
+  </router-link>
 </template>
 
 <style scoped>

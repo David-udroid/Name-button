@@ -1,9 +1,10 @@
 <script setup>
 import { ref } from 'vue'
-import NewPage from './newpage.vue'
+ import NewPage from './newpage.vue'
+
 
 const isShaking = ref(false)
-const showPage = ref(false)
+ const showPage = ref(false)
 
 function shakeButton() {
   isShaking.value =  false 
@@ -14,13 +15,15 @@ function shakeButton() {
 </script>
 
 <template>
-<NewPage v-if="showPage" @go-back="showPage = false" /> 
+<NewPage v-if="showPage" @go-back="showPage = false" />   
+<router-link to="./newpage">
 <button 
-v-else
+
 class="name-button" 
 :class=" { shake: isShaking }" 
 @click = "showPage = true; shakeButton()">
 DAVID</button>
+</router-link>
 </template>
 
 <style scoped>
