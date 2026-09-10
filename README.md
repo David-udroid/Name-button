@@ -1,24 +1,27 @@
 # What I built
- A button displaying my name, centered on the page that shakes when clicked.
+ A Button tha displays my name that  when clicked it shakes and take you to another page.
 
 # what I did:   
-1. created a vue project.
+1. Created a vue project.
 2. Built a centered button
 3. Installed dependencies
 4. Added a click animation to make it shake.
 
 ## Project Setup
  ```sh
+ # Vue Installation
  npm create vue@latest
  cd name-button
  npm install
  npm run dev
  ```
 ## The HMTL Section:
+```sh
  <template>
    <button class="name-button" :class=" {shake: isShaking}" @click = "shakeButton">
    DAVID</button>
   </template>
+```
 
 ## The CSS:
 ```sh
@@ -50,7 +53,7 @@
     100% { transform: translate(0, 0); }
   }  
 </style>
-```sh
+```
 
 ## The Script:
 ```sh
@@ -89,9 +92,14 @@
     100% { transform: translate(0, 0); }
   }  
 ```
-![Screenshot](./screenshot/AfterClick.png)
-![Screenshot](./screenshot/image.png)
-![Screenshot] (./screenshot/organized folder.png)
+# The Screen Of The Pages
 
+ ![Screenshot](./screenshot/image.png)
+ ![Screenshot](./screenshot/AfterClick.png)
+
+![Screenshot] (./screenshot/organized.png)
+
+## The New Page Creation
+ 
 
 
