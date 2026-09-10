@@ -98,9 +98,8 @@
 # The First Page.
  ![Screenshot](./screenshot/image.png)
 
-![Screenshot] (./screenshot/organized.png)
-
 ## The New Page Creation
+I built a new page using vue.js, that links to the fisrt page with the router
 ```sh
  <template>
   <div class="newpage">
@@ -141,7 +140,7 @@
   defineEmits(['go-back'])
 </script>
 ```
-# The Second Page;
+# The Newpage Page;
    ![Screenshot](./screenshot/AfterClick.png)
 
 # Git Commands:
@@ -172,3 +171,7 @@ git add .
 git commit -m "Describe your change"
 git push
 ```
+## Commit EditMsg
+![Screenshot](./screenshot/commitproces.png) 
+## Git Terminal
+![Screenshot](./screenshot/gitupdating.png)
