@@ -12,6 +12,9 @@ function shakeButton() {
     isShaking.value = true
   })
 }
+function gotoNewPage() {
+  window.location.href = './newpage'
+}
 </script>
 
 <template>
@@ -20,6 +23,7 @@ function shakeButton() {
 <button 
 
 class="name-button" 
+onclick="gotoNewPage"
 :class=" { shake: isShaking }" 
 @click = "showPage = true; shakeButton()">
 DAVID</button>
