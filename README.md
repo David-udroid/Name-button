@@ -21,6 +21,7 @@
   </template>
 
 ## The CSS:
+```sh
 <style scoped>
   .name-button {
     padding: 18px 36px;
@@ -49,8 +50,10 @@
     100% { transform: translate(0, 0); }
   }  
 </style>
+```sh
 
 ## The Script:
+```sh
 <script setup>
   import { ref } from 'vue'
   const isShaking = ref(false)
@@ -62,7 +65,7 @@
     })
   }
 </script>
-
+```
 ### Installed Dependencies
 ```sh
 "dependencies": {
