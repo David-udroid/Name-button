@@ -175,3 +175,46 @@ git push
 ![Screenshot](./screenshot/commitprocess.png) 
 ## Git Terminal
 ![Screenshot](./screenshot/gitupdating.png)
+
+## Router Installation:
+-Installed router in order to link the pages together
+```sh
+npm install vue-router
+```
+-Created the pathway in index.js with:
+```sh
+import { createRouter, createWebHistory } from 'vue-router'
+import App from '../App.vue'
+import NewPage from '../newpage.vue'
+
+const router = createRouter({
+  history: createWebHistory(),
+  routes: [
+    {
+      path: '/',
+      component: App,
+    },
+    {
+      path: '/newpage',
+      component: NewPage,
+    },
+  ],
+})
+
+export default router
+```
+-Created a pathway in main.js with:
+```sh
+import { createApp } from 'vue'
+import App from './App.vue'
+import router from './router'
+import './assets/main.css'
+
+createApp(App)
+  .use(router)
+  .mount('#app')
+```
+- Navigated with:
+```sh
+router.push('/newpage')
+```

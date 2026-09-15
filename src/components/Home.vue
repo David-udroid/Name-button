@@ -15,27 +15,24 @@ function shakeButton() {
   router.push('/newpage')
 }
 function gotoNewPage() {
-  shakeButton()
+  // window.location.href = './newpage'
+    shakeButton()
   showPage.value = true
-}
-
-function goBack() {
-  showPage.value = false
-  router.push('/')
 }
 </script>
 
 <template>
-<NewPage v-if="showPage" @go-back="goBack" />    
+<!-- <NewPage v-if="showPage" @go-back="showPage = false" />    -->
 <!-- <router-link to="./newpage"> -->
 <button 
-v-else
+
 class="name-button" 
+onclick="gotoNewPage" 
 :class=" { shake: isShaking }" 
 
 @click="gotoNewPage">
 DAVID</button>
-
+<router-view />
 <!-- </router-link> -->
 </template>
 

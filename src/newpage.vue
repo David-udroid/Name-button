@@ -2,12 +2,11 @@
   <div class="newpage">
     David Davis.
   </div>
-  <router-link to="./">
-    <button class="back" 
-    @click="$emit('go-back')">
+  <!-- <router-link to="./"> -->
+    <button class="back" @click="goBack">
       Back
     </button>
-  </router-link>
+  <!-- </router-link> -->
 </template>
 
 <style scoped>
@@ -34,5 +33,13 @@
 </style>
 
 <script setup>
-  defineEmits(['go-back'])
+import { useRouter } from 'vue-router'
+const router = useRouter()
+const emit = defineEmits(['go-back'])
+
+function goBack() {
+  emit('go-back')
+  router.push('/')
+}
+
 </script>
