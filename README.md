@@ -1,7 +1,7 @@
-# What I built
+# What I Built
  A Button tha displays my name that  when clicked it shakes and take you to another page.
 
-# what I did:   
+# what I Did:   
 1. Created a vue project.
 2. Built a centered button
 3. Installed dependencies
