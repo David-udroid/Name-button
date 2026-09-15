@@ -177,11 +177,11 @@ git push
 ![Screenshot](./screenshot/gitupdating.png)
 
 ## Router Installation:
--Installed router in order to link the pages together
+- Installed router in order to link the pages together
 ```sh
 npm install vue-router
 ```
--Created the pathway in index.js with:
+- Created the pathway in index.js with:
 ```sh
 import { createRouter, createWebHistory } from 'vue-router'
 import App from '../App.vue'
@@ -203,7 +203,7 @@ const router = createRouter({
 
 export default router
 ```
--Created a pathway in main.js with:
+- Created a pathway in main.js with:
 ```sh
 import { createApp } from 'vue'
 import App from './App.vue'
